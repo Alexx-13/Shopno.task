@@ -10,7 +10,7 @@
 #
 5.API of Google Map was added;
 #
-6. From 320px to 1600px;
+6.From 320px to 1600px;
 #
 7.BEM was used;
 #
@@ -18,4 +18,4 @@
 #
 9.Images were minimizedж
 #
-10. SCSS was used
+10.SCSS was used
