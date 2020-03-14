@@ -478,14 +478,7 @@ body{
   z-index: 0;
 };
 
-.main__container__team__images-a__hover__triangle{
-  display: flex;
-  border: 10px solid transparent; 
-  border-bottom: 30px solid rgb(112, 245, 235);
-  position: absolute;
-  margin-top: 130px;
-  margin-left: 25px;
-};
+
 
 .main__container__team__images-a__hover__rectangle{
   display: flex;
@@ -500,12 +493,9 @@ body{
   margin-left: 10px;
 };
 
-.main__container__team__images-a__hover__triangle:hover{
-  z-index: 999;
-}
 
 .main__container__team__images-a__hover__rectangle:hover{
-  z-index: 999;
+  z-index: 20;
 }
 
 .main__container__team__images-a__hover__rectangle h2{
@@ -850,15 +840,7 @@ body{
     z-index: 0;
   };
   
-  .main__container__team__images-a__hover__triangle{
-    display: flex;
-    border: 10px solid transparent; 
-    border-bottom: 30px solid rgb(112, 245, 235);
-    position: absolute;
-    margin-top: 130px;
-    margin-left: 25px;
-   
-  };
+
   
   .main__container__team__images-a__hover__rectangle{
     display: flex;
@@ -1041,15 +1023,7 @@ body{
     z-index: 0;
   };
   
-  .main__container__team__images-a__hover__triangle{
-    display: flex;
-    border: 10px solid transparent; 
-    border-bottom: 30px solid rgb(112, 245, 235);
-    position: absolute;
-    margin-top: 130px;
-    margin-left: 25px;
-   
-  };
+
   
   .main__container__team__images-a__hover__rectangle{
     display: flex;
@@ -1359,15 +1333,7 @@ body{
     z-index: 0;
   };
   
-  .main__container__team__images-a__hover__triangle{
-    display: flex;
-    border: 10px solid transparent; 
-    border-bottom: 30px solid rgb(112, 245, 235);
-    position: absolute;
-    margin-top: 130px;
-    margin-left: 25px;
-   
-  };
+
   
   .main__container__team__images-a__hover__rectangle{
     display: flex;
@@ -1693,16 +1659,7 @@ body{
   .main__container__team__images-a__hover__image:hover {
     z-index: 0;
   };
-  
-  .main__container__team__images-a__hover__triangle{
-    display: flex;
-    border: 10px solid transparent; 
-    border-bottom: 30px solid rgb(112, 245, 235);
-    position: absolute;
-    margin-top: 100px;
-    margin-left: 25px;
-   
-  };
+
   
   .main__container__team__images-a__hover__rectangle{
     display: flex;
@@ -1995,15 +1952,7 @@ body{
     z-index: 0;
   };
   
-  .main__container__team__images-a__hover__triangle{
-    display: flex;
-    border: 10px solid transparent; 
-    border-bottom: 30px solid rgb(112, 245, 235);
-    position: absolute;
-    margin-top: 70px;
-    margin-left: 25px;
-   
-  };
+
   
   .main__container__team__images-a__hover__rectangle{
     display: flex;
@@ -2354,15 +2303,7 @@ body{
     z-index: 0;
   };
   
-  .main__container__team__images-a__hover__triangle{
-    display: flex;
-    border: 10px solid transparent; 
-    border-bottom: 30px solid rgb(112, 245, 235);
-    position: absolute;
-    margin-top: -25px;
-    margin-left: -85px;
-   
-  };
+
   
   .main__container__team__images-a__hover__rectangle{
     display: flex;
@@ -2552,15 +2493,7 @@ body{
     z-index: 0;
   };
   
-  .main__container__team__images-a__hover__triangle{
-    display: flex;
-    border: 10px solid transparent; 
-    border-bottom: 30px solid rgb(112, 245, 235);
-    position: absolute;
-    margin-top: -25px;
-    margin-left: -65px;
-   
-  };
+
   
   .main__container__team__images-a__hover__rectangle{
     display: flex;
@@ -2793,15 +2726,7 @@ body{
     z-index: 0;
   };
   
-  .main__container__team__images-a__hover__triangle{
-    display: flex;
-    border: 10px solid transparent; 
-    border-bottom: 30px solid rgb(112, 245, 235);
-    position: absolute;
-    margin-top: -20px;
-    margin-left: -42px;
-   
-  };
+
   
   .main__container__team__images-a__hover__rectangle{
     display: flex;
@@ -2994,16 +2919,6 @@ body{
     height: 330px;
   };
 
-  .main__container__team__images-a__hover__triangle{
-    display: flex;
-    border: 10px solid transparent; 
-    border-bottom: 30px solid rgb(112, 245, 235);
-    position: absolute;
-    margin-top: -50px;
-    margin-left: -90px;
-   
-  };
-  
   .main__container__team__images-a__hover__rectangle{
     display: flex;
     background-color: rgb(112, 245, 235);
@@ -3099,15 +3014,7 @@ body{
   };
 
   
-  .main__container__team__images-a__hover__triangle{
-    display: flex;
-    border: 10px solid transparent; 
-    border-bottom: 30px solid rgb(112, 245, 235);
-    position: absolute;
-    margin-top: -40px;
-    margin-left: -70px;
-   
-  };
+
 
   .main__container__team__images-a__hover__rectangle img{
     display: flex;
@@ -3169,15 +3076,7 @@ body{
 
 // Start media 330px // 
 @media screen and (max-width: 350px){
-  .main__container__team__images-a__hover__triangle{
-    display: flex;
-    border: 10px solid transparent; 
-    border-bottom: 30px solid rgb(112, 245, 235);
-    position: absolute;
-    margin-top: -25px;
-    margin-left: -60px;
-   
-  };
+
 
   .main__container__team__images-a__hover__rectangle img{
     display: flex;
