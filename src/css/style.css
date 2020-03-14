@@ -253,7 +253,8 @@ body {
 .main__container__featured-works__images-a img {
   width: 298px;
   height: 284px;
-  padding: 5px; }
+  padding: 5px;
+  cursor: pointer; }
 
 .main__container__featured-works__images-b {
   display: inline-flex; }
@@ -261,7 +262,8 @@ body {
 .main__container__featured-works__images-b img {
   width: 298px;
   height: 284px;
-  padding: 5px; }
+  padding: 5px;
+  cursor: pointer; }
 
 .main__container__featured-works__modal-a, .main__container__featured-works__modal-b, .main__container__featured-works__modal-c, .main__container__featured-works__modal-d, .main__container__featured-works__modal-e, .main__container__featured-works__modal-f {
   display: none;
@@ -396,6 +398,12 @@ body {
   align-items: center;
   justify-content: center;
   margin-left: 10px; }
+
+.main__container__team__images-a__hover__triangle:hover {
+  z-index: 999; }
+
+.main__container__team__images-a__hover__rectangle:hover {
+  z-index: 999; }
 
 .main__container__team__images-a__hover__rectangle h2 {
   font-family: 'Montserrat', sans-serif;

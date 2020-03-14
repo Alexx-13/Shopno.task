@@ -328,7 +328,8 @@ body{
 .main__container__featured-works__images-a img{
   width: 298px;
   height: 284px;
-  padding: 5px
+  padding: 5px;
+  cursor: pointer;
 };
 
 .main__container__featured-works__images-b{
@@ -339,6 +340,7 @@ body{
   width: 298px;
   height: 284px;
   padding: 5px;
+  cursor: pointer;
 };
 
 //Start of modal window //
@@ -483,7 +485,6 @@ body{
   position: absolute;
   margin-top: 130px;
   margin-left: 25px;
- 
 };
 
 .main__container__team__images-a__hover__rectangle{
@@ -498,6 +499,14 @@ body{
   justify-content: center;
   margin-left: 10px;
 };
+
+.main__container__team__images-a__hover__triangle:hover{
+  z-index: 999;
+}
+
+.main__container__team__images-a__hover__rectangle:hover{
+  z-index: 999;
+}
 
 .main__container__team__images-a__hover__rectangle h2{
   @include heighFont();

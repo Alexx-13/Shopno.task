@@ -9,17 +9,14 @@ const backgroundModal = document.querySelector(".main__container__featured-works
 let stylaA = getComputedStyle(openModalA);
 
 function showModalWindow(modal){
-  if(modal.style.display === "none") {
+  if(modal.style.display = "none") {
     backgroundModal.style.display = "flex";
     modal.style.display = "flex";
-    
   } else {
     modal.style.display = "none";
     backgroundModal.style.display = "none";
   }
-
 };
-showModalWindow();
 
 function hideModalWindow(modal){
   if(modal.style.display = "flex") {
@@ -27,4 +24,3 @@ function hideModalWindow(modal){
     modal.style.display = "none";
   }
 };
-hideModalWindow();
